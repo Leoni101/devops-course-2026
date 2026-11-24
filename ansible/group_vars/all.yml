@@ -1,0 +1,6 @@
+---
+app_image: "ghcr.io/Leoni101/devops-ci-app"
+app_tag: "a562ef92f41868fd6f63e997175cab5aed4dcbf1"
+app_container_name: "devops-ci-app"
+app_host_port: 5000
+app_internal_port: 5000
