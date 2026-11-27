@@ -2,9 +2,9 @@
   ansible.builtin.assert:
     that:
       - ansible_distribution == "Ubuntu"
-      - ansible_distribution_version is version("24.04", "==")
+      - ansible_distribution_version is version("26.04", "==")
       - ansible_architecture == "x86_64"
-    fail_msg: "Требуется Ubuntu Server 24.04 amd64"
+    fail_msg: "Требуется Ubuntu Server 26.04 amd64"
 
 - name: Install base packages and remote module dependencies
   ansible.builtin.apt:
